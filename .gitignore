@@ -1,0 +1,29 @@
+# ===== Python / Backend =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+*.whisper/
+faster-whisper-source/
+
+# ===== Frontend =====
+**/node_modules
+**/dist
+**/build
+**/dist-zip
+**/.turbo
+
+# ===== Environment =====
+.env
+.env.*
+api_key.md
+
+# ===== IDE =====
+.idea/
+.vscode/
+.DS_Store
+
+# ===== Build artifacts =====
+*.tsbuildinfo
+chrome-extension/manifest.js
